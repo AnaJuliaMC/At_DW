@@ -1,0 +1,5 @@
+Quais são as formas de integrar um código javascript no HTML? Explique as diferenças.
+
+1- Você pode conectar a pagina de html com java colocando o comando script entre as tagas head. Então você escreve src e conecta o link do java ao do html
+
+2- Ou tambem pode ligar os dois na mesma pagina, colocando a tag script
