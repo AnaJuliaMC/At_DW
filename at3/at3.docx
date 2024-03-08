@@ -1,0 +1,11 @@
+Para proporcionar um comportamento dinâmico a uma página HTML, precisamos capturar o elemento HTML que queremos manipular.
+
+Quais são as formas de capturar um elemento HTML. Por exemplo, quero capturar uma div para alterar seu conteúdo
+    1- Usando o getElementById, seleciona apenas pelo id os elementos. 
+    2- Usando o querySelectorAll, para pegar varios elementos da classe pedida
+    3- Usando o querySelector, para pegar apenas um elemento, diferente da anterior ele pega somente o primeiro elemento que atende o que foi pedido
+
+Uma vez que o elemento foi capturado, quais são as formas de alterar seu conteúdo? Por exemplo, quero escrever “UTFPR” dentro da div capturada. 
+
+
+Quais são as formas de capturar um elemento HTML
