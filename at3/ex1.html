@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplo de getElementById e InnerHTML</h1>
+    <p id="a">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est vero dolores soluta praesentium repellat placeat? Nihil culpa blanditiis ullam tempore amet recusandae sapiente, optio dicta a possimus, natus, hic officiis.<i>paragrafo</i></p>
+    <p>O lorem de cima é: <p id="b"></p></p>
+    <script>
+        let p_a = document.getElementById("a").innerHTML;
+        document.getElementById("b").innerHTML =  p_a
+    </script>
+</body>
+</html>

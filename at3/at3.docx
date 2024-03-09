@@ -6,6 +6,6 @@ Quais são as formas de capturar um elemento HTML. Por exemplo, quero capturar u
     3- Usando o querySelector, para pegar apenas um elemento, diferente da anterior ele pega somente o primeiro elemento que atende o que foi pedido
 
 Uma vez que o elemento foi capturado, quais são as formas de alterar seu conteúdo? Por exemplo, quero escrever “UTFPR” dentro da div capturada. 
-
-
+    1- Podemos usar o innerHTML
+    
 Quais são as formas de capturar um elemento HTML
