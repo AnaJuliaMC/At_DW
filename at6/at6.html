@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    button{
+        width: 70px;
+        height: 150px;
+    }
+</style>
+<body>
+    <img src="./lampada-off.jpg" alt="lampada" id="lamp">
+
+    <div> <button id="liga" onclick="Lig_des()"> Ligar</button>
+        <button id="des" onclick="Lig_des"> Desligar</button>
+    </div>
+
+    <script>
+        const liga = document.getElementById('liga');
+        const des = document.getElementById('des');
+        const lamp = document.getElementById('lamp');
+
+        function ligar(){
+            lamp.src = './lampada-on.jpg';
+        }
+
+        function Desligar(){
+            lamp.src = './lampada-off.jpg';
+        }
+
+
+        liga.addEventListener ('click' , ligar);
+        des.addEventListener ('click' , Desligar);
+
+    </script>
+</body>
+</html>
